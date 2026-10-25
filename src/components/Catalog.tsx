@@ -199,24 +199,16 @@ export default function Catalog() {
         <main className="container">
             <div className="row">
                 <div className="col">
-                    <div className="banner">
-                        <img
-                            src="./img/banner.jpg"
-                            className="img-fluid"
-                            alt="Подберите технику для своего рабочего пространства"
-                        />
-                        <h2 className="banner-header">SETUP LAB</h2>
-                    </div>
 
                     <section className="catalog">
                         <h2 className="text-center">Каталог техники</h2>
 
                         <form
-                            className="catalog-search-form form-inline"
+                            className="catalog-search-form"
                             onSubmit={handleSearchSubmit}
                         >
                             <input
-                                className="form-control"
+                                className="catalog-search-input"
                                 placeholder="Поиск техники..."
                                 aria-label="Поиск товаров"
                                 onChange={(event) =>
@@ -226,7 +218,7 @@ export default function Catalog() {
                             />
                             <button
                                 type="submit"
-                                className="btn btn-outline-primary"
+                                className="catalog-search-button"
                             >
                                 Найти
                             </button>
