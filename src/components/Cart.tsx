@@ -3,7 +3,7 @@ import type { FormEvent } from 'react';
 import type { ProductCartItem } from '../types';
 import { Link } from 'react-router-dom';
 
-const API_URL = 'http://localhost:7070/api';
+const API_URL = `${import.meta.env.VITE_API_URL ?? '/api'}`;
 
 export default function Cart() {
     const [cart, setCart] = useState<ProductCartItem[]>([]);
