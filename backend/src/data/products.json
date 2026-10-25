@@ -7,7 +7,9 @@
     "categoryId": 1,
     "price": 89990,
     "oldPrice": 94990,
-    "images": ["/images/products/lenovo-thinkpad-e14-gen-6.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Надёжный ноутбук для работы, учёбы и повседневных задач.",
     "description": "Универсальный рабочий ноутбук с удобной клавиатурой, набором необходимых портов и строгим дизайном. Подходит для документов, разработки, видеозвонков и многозадачной работы.",
     "specifications": {
@@ -18,7 +20,10 @@
       "storageGB": 512,
       "weightKg": 1.44
     },
-    "useCases": ["work", "study"],
+    "useCases": [
+      "work",
+      "study"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -29,7 +34,9 @@
     "brand": "ASUS",
     "categoryId": 1,
     "price": 67990,
-    "images": ["/images/products/asus-vivobook-15.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Практичный ноутбук для учёбы и домашнего офиса.",
     "description": "Повседневный ноутбук для браузера, офисных приложений, онлайн-занятий и мультимедиа. Хорошая отправная точка для первого рабочего места без переплаты за специализированные функции.",
     "specifications": {
@@ -40,7 +47,10 @@
       "storageGB": 512,
       "weightKg": 1.7
     },
-    "useCases": ["study", "work"],
+    "useCases": [
+      "study",
+      "work"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -52,7 +62,9 @@
     "categoryId": 1,
     "price": 139990,
     "oldPrice": 149990,
-    "images": ["/images/products/apple-macbook-air-13.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Компактный ноутбук для мобильной работы и творчества.",
     "description": "Лёгкий ноутбук для работы вне дома, редактирования фото, повседневного монтажа и продуктивной многозадачности. Подходит тем, кому важны мобильность и автономная работа.",
     "specifications": {
@@ -63,7 +75,11 @@
       "storageGB": 512,
       "weightKg": 1.24
     },
-    "useCases": ["work", "study", "content-creation"],
+    "useCases": [
+      "work",
+      "study",
+      "content-creation"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -74,7 +90,9 @@
     "brand": "Apple",
     "categoryId": 1,
     "price": 79990,
-    "images": ["/images/products/apple-mac-mini.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Компактный настольный компьютер для рабочего места.",
     "description": "Небольшой настольный компьютер для тех, у кого уже есть монитор, клавиатура и мышь. Подходит для повседневной работы, разработки и лёгких задач по созданию контента.",
     "specifications": {
@@ -84,7 +102,11 @@
       "usbPorts": 5,
       "network": "Wi‑Fi, Bluetooth, Ethernet"
     },
-    "useCases": ["work", "study", "content-creation"],
+    "useCases": [
+      "work",
+      "study",
+      "content-creation"
+    ],
     "featured": false,
     "inStock": true
   },
@@ -96,7 +118,9 @@
     "categoryId": 1,
     "price": 129990,
     "oldPrice": 139990,
-    "images": ["/images/products/asus-tuf-gaming-a15.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Игровой ноутбук для современных игр и ресурсоёмких задач.",
     "description": "Производительный ноутбук с игровым экраном и системой охлаждения. Может использоваться и для игр, и для задач, которым важна производительность графики.",
     "specifications": {
@@ -107,7 +131,10 @@
       "ramGB": 16,
       "storageGB": 1024
     },
-    "useCases": ["gaming", "content-creation"],
+    "useCases": [
+      "gaming",
+      "content-creation"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -118,7 +145,9 @@
     "brand": "Dell",
     "categoryId": 2,
     "price": 52990,
-    "images": ["/images/products/dell-ultrasharp-27-4k.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "27-дюймовый 4K-монитор для работы с текстом и изображениями.",
     "description": "Монитор с высоким разрешением для многозадачности, документов, таблиц и работы с визуальным контентом. Удобен как основной экран домашнего офиса.",
     "specifications": {
@@ -129,7 +158,10 @@
       "usbC": "Да",
       "adjustableStand": "Высота, наклон, поворот"
     },
-    "useCases": ["work", "content-creation"],
+    "useCases": [
+      "work",
+      "content-creation"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -141,7 +173,9 @@
     "categoryId": 2,
     "price": 36990,
     "oldPrice": 39990,
-    "images": ["/images/products/lg-ultragear-27-qhd.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Быстрый QHD-монитор для игр и повседневной работы.",
     "description": "Универсальный монитор с высокой частотой обновления. Подойдёт для игрового сетапа, а также для обычных задач и просмотра видео.",
     "specifications": {
@@ -152,7 +186,10 @@
       "panelType": "IPS",
       "adaptiveSync": "Да"
     },
-    "useCases": ["gaming", "work"],
+    "useCases": [
+      "gaming",
+      "work"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -163,7 +200,9 @@
     "brand": "AOC",
     "categoryId": 2,
     "price": 17990,
-    "images": ["/images/products/aoc-24-gaming-monitor.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Доступный монитор для первого игрового или учебного места.",
     "description": "Компактный монитор с разрешением Full HD. Подходит для небольшого стола, учёбы, повседневных приложений и игр.",
     "specifications": {
@@ -173,7 +212,10 @@
       "panelType": "IPS",
       "inputs": "HDMI, DisplayPort"
     },
-    "useCases": ["gaming", "study"],
+    "useCases": [
+      "gaming",
+      "study"
+    ],
     "featured": false,
     "inStock": true
   },
@@ -184,7 +226,9 @@
     "brand": "Keychron",
     "categoryId": 3,
     "price": 11990,
-    "images": ["/images/products/keychron-k8-pro.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Механическая клавиатура компактного формата.",
     "description": "Механическая клавиатура для тех, кому важны тактильный отклик и удобство набора. Подходит как для работы, так и для игр.",
     "specifications": {
@@ -194,7 +238,11 @@
       "backlight": "RGB",
       "compatibleSystems": "Windows, macOS"
     },
-    "useCases": ["work", "study", "gaming"],
+    "useCases": [
+      "work",
+      "study",
+      "gaming"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -205,7 +253,9 @@
     "brand": "Logitech",
     "categoryId": 3,
     "price": 12990,
-    "images": ["/images/products/logitech-mx-keys-s.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Тихая беспроводная клавиатура для ежедневной работы.",
     "description": "Полноразмерная клавиатура с низкопрофильными клавишами для продолжительного набора текста. Подходит для домашнего офиса и многозадачной работы.",
     "specifications": {
@@ -215,7 +265,10 @@
       "battery": "Перезаряжаемая",
       "compatibleSystems": "Windows, macOS, Linux"
     },
-    "useCases": ["work", "study"],
+    "useCases": [
+      "work",
+      "study"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -226,7 +279,9 @@
     "brand": "Keychron",
     "categoryId": 3,
     "price": 8990,
-    "images": ["/images/products/keychron-v1.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Настраиваемая механическая клавиатура для рабочего стола.",
     "description": "Компактная механическая клавиатура с возможностью настройки раскладки и поведения клавиш. Хороший вариант для тех, кто хочет персонализировать рабочее место.",
     "specifications": {
@@ -236,7 +291,11 @@
       "keyRemapping": "Поддерживается",
       "compatibleSystems": "Windows, macOS, Linux"
     },
-    "useCases": ["work", "gaming", "content-creation"],
+    "useCases": [
+      "work",
+      "gaming",
+      "content-creation"
+    ],
     "featured": false,
     "inStock": true
   },
@@ -247,7 +306,9 @@
     "brand": "Logitech",
     "categoryId": 4,
     "price": 9990,
-    "images": ["/images/products/logitech-mx-master-3s.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Эргономичная мышь для работы и точного управления.",
     "description": "Мышь с дополнительными кнопками и колёсиком прокрутки для работы с таблицами, документами, редакторами и большим количеством открытых окон.",
     "specifications": {
@@ -257,7 +318,10 @@
       "battery": "Перезаряжаемая",
       "multiDevice": "До 3 устройств"
     },
-    "useCases": ["work", "content-creation"],
+    "useCases": [
+      "work",
+      "content-creation"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -268,7 +332,9 @@
     "brand": "Logitech G",
     "categoryId": 4,
     "price": 6990,
-    "images": ["/images/products/logitech-g502-x.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Игровая мышь с дополнительными настраиваемыми кнопками.",
     "description": "Проводная игровая мышь для пользователей, которым нужны дополнительные команды под рукой и гибкая настройка управления.",
     "specifications": {
@@ -278,7 +344,10 @@
       "weightG": 89,
       "lighting": "Нет"
     },
-    "useCases": ["gaming", "work"],
+    "useCases": [
+      "gaming",
+      "work"
+    ],
     "featured": false,
     "inStock": true
   },
@@ -289,7 +358,9 @@
     "brand": "Razer",
     "categoryId": 4,
     "price": 5990,
-    "images": ["/images/products/razer-deathadder-v3.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Лёгкая игровая мышь для быстрых движений.",
     "description": "Лёгкая мышь эргономичной формы для динамичных игр. Минималистичный корпус без лишних декоративных элементов.",
     "specifications": {
@@ -299,7 +370,9 @@
       "weightG": 59,
       "pollingRateHz": 8000
     },
-    "useCases": ["gaming"],
+    "useCases": [
+      "gaming"
+    ],
     "featured": false,
     "inStock": true
   },
@@ -310,7 +383,9 @@
     "brand": "Sony",
     "categoryId": 5,
     "price": 26990,
-    "images": ["/images/products/sony-wh-1000xm5.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Беспроводные наушники с шумоподавлением.",
     "description": "Наушники для сосредоточенной работы, поездок и звонков. Подходят тем, кто часто работает в шумном помещении или вне дома.",
     "specifications": {
@@ -320,7 +395,11 @@
       "batteryLifeHours": 30,
       "multiDevice": "Да"
     },
-    "useCases": ["work", "study", "content-creation"],
+    "useCases": [
+      "work",
+      "study",
+      "content-creation"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -331,7 +410,9 @@
     "brand": "HyperX",
     "categoryId": 5,
     "price": 8990,
-    "images": ["/images/products/hyperx-cloud-iii.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1599669454699-248893623440?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Гарнитура для игр, общения и голосовых звонков.",
     "description": "Полноразмерная гарнитура с микрофоном для командных игр и повседневных разговоров. Подходит для компьютера и совместимых игровых устройств.",
     "specifications": {
@@ -341,7 +422,10 @@
       "surroundSound": "Виртуальный 7.1",
       "weightG": 320
     },
-    "useCases": ["gaming", "work"],
+    "useCases": [
+      "gaming",
+      "work"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -352,7 +436,9 @@
     "brand": "Edifier",
     "categoryId": 5,
     "price": 10990,
-    "images": ["/images/products/edifier-mr4.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e2e1?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Компактные активные колонки для рабочего стола.",
     "description": "Пара настольных колонок для музыки, видео и работы со звуком. Подключаются к компьютеру или другому совместимому источнику аудио.",
     "specifications": {
@@ -362,7 +448,11 @@
       "speakerCount": 2,
       "headphoneOutput": "Да"
     },
-    "useCases": ["work", "study", "content-creation"],
+    "useCases": [
+      "work",
+      "study",
+      "content-creation"
+    ],
     "featured": false,
     "inStock": true
   },
@@ -373,7 +463,9 @@
     "brand": "Logitech",
     "categoryId": 6,
     "price": 16990,
-    "images": ["/images/products/logitech-brio-4k.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Веб-камера для видеозвонков и онлайн-презентаций.",
     "description": "Внешняя веб-камера для рабочего места, видеоконференций, онлайн-обучения и записи видео. Удобна для ноутбуков и настольных компьютеров без хорошей встроенной камеры.",
     "specifications": {
@@ -383,7 +475,11 @@
       "privacyShutter": "Да",
       "mounting": "Монитор или штатив"
     },
-    "useCases": ["work", "study", "content-creation"],
+    "useCases": [
+      "work",
+      "study",
+      "content-creation"
+    ],
     "featured": false,
     "inStock": true
   },
@@ -394,7 +490,9 @@
     "brand": "Elgato",
     "categoryId": 6,
     "price": 14990,
-    "images": ["/images/products/elgato-wave-3.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "USB-микрофон для стримов, подкастов и записи голоса.",
     "description": "Настольный USB-микрофон для записи речи, прямых эфиров и видеоконтента. Подходит для авторов, которым нужен отдельный микрофон без сложной аудиосистемы.",
     "specifications": {
@@ -404,7 +502,10 @@
       "resolution": "24-bit / 96 kHz",
       "headphoneOutput": "Да"
     },
-    "useCases": ["content-creation", "work"],
+    "useCases": [
+      "content-creation",
+      "work"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -415,7 +516,9 @@
     "brand": "FIFINE",
     "categoryId": 6,
     "price": 5990,
-    "images": ["/images/products/fifine-am8.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Доступный микрофон для звонков, игр и первых записей.",
     "description": "Микрофон для тех, кто хочет улучшить качество голоса в онлайн-играх, звонках и простых домашних записях без большого бюджета.",
     "specifications": {
@@ -425,7 +528,11 @@
       "muteButton": "Да",
       "headphoneOutput": "Да"
     },
-    "useCases": ["gaming", "work", "content-creation"],
+    "useCases": [
+      "gaming",
+      "work",
+      "content-creation"
+    ],
     "featured": false,
     "inStock": true
   },
@@ -436,7 +543,9 @@
     "brand": "CalDigit",
     "categoryId": 7,
     "price": 39990,
-    "images": ["/images/products/caldigit-ts4-dock.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Док-станция для подключения периферии одним кабелем.",
     "description": "Док-станция для расширения возможностей совместимого ноутбука: подключение мониторов, накопителей, сети и аксессуаров через один кабель.",
     "specifications": {
@@ -446,7 +555,10 @@
       "ethernet": "2.5 GbE",
       "powerDeliveryW": 98
     },
-    "useCases": ["work", "content-creation"],
+    "useCases": [
+      "work",
+      "content-creation"
+    ],
     "featured": false,
     "inStock": false
   },
@@ -457,7 +569,9 @@
     "brand": "Anker",
     "categoryId": 7,
     "price": 8990,
-    "images": ["/images/products/anker-555-usb-c-hub.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1625842268584-8f3296236761?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Компактный USB-C хаб для ноутбука и поездок.",
     "description": "Многофункциональный адаптер для подключения монитора, USB-устройств, карт памяти и зарядки совместимого ноутбука. Помогает уменьшить количество переходников на столе.",
     "specifications": {
@@ -468,7 +582,11 @@
       "cardReader": "SD, microSD",
       "powerDeliveryW": 85
     },
-    "useCases": ["work", "study", "content-creation"],
+    "useCases": [
+      "work",
+      "study",
+      "content-creation"
+    ],
     "featured": true,
     "inStock": true
   },
@@ -479,7 +597,9 @@
     "brand": "Samsung",
     "categoryId": 8,
     "price": 12990,
-    "images": ["/images/products/samsung-t7-shield-1tb.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Внешний SSD для резервных копий и больших файлов.",
     "description": "Портативный твердотельный накопитель для переноса проектов, фото, видео и резервных копий. Компактный корпус подходит для использования дома и в поездках.",
     "specifications": {
@@ -489,7 +609,12 @@
       "readSpeedMBs": 1050,
       "shockResistance": "Защищённый корпус"
     },
-    "useCases": ["work", "study", "content-creation", "gaming"],
+    "useCases": [
+      "work",
+      "study",
+      "content-creation",
+      "gaming"
+    ],
     "featured": false,
     "inStock": true
   },
@@ -500,7 +625,9 @@
     "brand": "Kingston",
     "categoryId": 8,
     "price": 7990,
-    "images": ["/images/products/kingston-xs1000-1tb.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Небольшой внешний SSD для файлов и резервных копий.",
     "description": "Лёгкий внешний накопитель для документов, учебных материалов, фото и рабочих проектов. Удобен для повседневного переноса данных между устройствами.",
     "specifications": {
@@ -510,7 +637,11 @@
       "readSpeedMBs": 1050,
       "weightG": 28.7
     },
-    "useCases": ["work", "study", "content-creation"],
+    "useCases": [
+      "work",
+      "study",
+      "content-creation"
+    ],
     "featured": false,
     "inStock": true
   },
@@ -521,7 +652,9 @@
     "brand": "BenQ",
     "categoryId": 9,
     "price": 18990,
-    "images": ["/images/products/benq-screenbar-halo.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Настольное освещение, которое крепится на монитор.",
     "description": "Лампа для освещения рабочей поверхности без отдельного основания на столе. Помогает организовать аккуратное рабочее место и освещение для вечерней работы.",
     "specifications": {
@@ -531,7 +664,11 @@
       "wirelessController": "Да",
       "powerSource": "USB"
     },
-    "useCases": ["work", "study", "content-creation"],
+    "useCases": [
+      "work",
+      "study",
+      "content-creation"
+    ],
     "featured": false,
     "inStock": true
   },
@@ -542,7 +679,9 @@
     "brand": "Elgato",
     "categoryId": 9,
     "price": 8990,
-    "images": ["/images/products/elgato-stream-deck-neo.webp"],
+    "images": [
+      "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=1000&q=80"
+    ],
     "shortDescription": "Настраиваемая панель быстрых действий для рабочего стола.",
     "description": "Компактная панель с программируемыми клавишами для запуска приложений, автоматизации повторяющихся действий, управления эфиром или творческими программами.",
     "specifications": {
@@ -552,7 +691,11 @@
       "customActions": "Поддерживаются",
       "compatibleSystems": "Windows, macOS"
     },
-    "useCases": ["work", "gaming", "content-creation"],
+    "useCases": [
+      "work",
+      "gaming",
+      "content-creation"
+    ],
     "featured": false,
     "inStock": true
   }
