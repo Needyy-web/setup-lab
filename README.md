@@ -1,40 +1,45 @@
 # SETUP LAB
 
-SETUP LAB is a concept storefront for computer hardware and workspace equipment. Visitors can explore products, compare specifications, browse curated PC setups, and place a demo order.
+**SETUP LAB** is a full-stack concept storefront for computer hardware and workspace equipment. It helps users explore tech for work, study, gaming, and content creation, compare products, browse curated setup kits, and submit a demo order.
 
 ## Features
 
 - Product catalog with search, category and use-case filters.
-- Sorting, price filtering, and pagination.
-- Product pages with specifications and pricing.
+- Price range filtering, sorting, and paginated loading.
+- Product detail pages with descriptions, specifications, and image galleries.
 - Curated setup kits with included products and calculated totals.
-- Shopping cart with quantity controls.
+- Shopping cart with persistent contents and quantity controls.
 - Checkout form with server-side order validation.
-- Automated backend tests for API behavior and order validation.
+- Responsive layout for desktop and mobile.
+- Automated backend tests and CI checks for frontend builds.
 
 ## Tech stack
 
-**Frontend:** React, TypeScript, Vite, React Router, CSS.
+- **Frontend:** React, TypeScript, Vite, React Router, CSS.
+- **Backend:** Node.js, native HTTP module, JSON data files, Node.js test runner.
+- **Quality checks:** TypeScript build, backend tests, GitHub Actions.
 
-**Backend:** Node.js, native HTTP module, JSON data files, Node.js test runner.
+## Screenshots
+
+Screenshots will be added after the final UI review.
 
 ## Run locally
 
-Requirements: Node.js and npm.
+Requirements: Node.js 22 or newer and npm.
 
 ### 1. Install frontend dependencies
 
-Run from the repository root:
+From the repository root:
 
 ```bash
-npm install
+npm ci
 ```
 
 ### 2. Install backend dependencies
 
 ```bash
 cd backend
-npm install
+npm ci
 ```
 
 ### 3. Start the API
@@ -45,7 +50,7 @@ From the `backend` directory:
 npm start
 ```
 
-By default, the API runs at `http://localhost:7070`.
+The API runs at `http://localhost:7070` by default.
 
 ### 4. Start the frontend
 
@@ -55,7 +60,24 @@ Open a second terminal at the repository root:
 npm run dev
 ```
 
-Open the local URL printed by Vite. Keep the API and frontend terminals running while using the app.
+Open the local URL printed by Vite. In development, Vite proxies `/api` requests to the backend on port 7070. Keep both processes running while using the app.
+
+## Checks
+
+Run from the repository root:
+
+```bash
+npm run build
+npm run lint
+```
+
+Run backend tests from the `backend` directory:
+
+```bash
+npm test
+```
+
+GitHub Actions runs the frontend production build and backend tests on pushes and pull requests.
 
 ## API endpoints
 
@@ -67,26 +89,16 @@ Open the local URL printed by Vite. Keep the API and frontend terminals running 
 | GET | `/api/top-sales` | List featured products |
 | GET | `/api/kits` | List curated setup kits |
 | GET | `/api/kits/:id` | Get a setup kit by ID |
-| POST | `/api/orders` | Validate and submit an order |
+| POST | `/api/orders` | Validate and submit a demo order |
 
 The catalog API supports search, category and use-case filters, price ranges, sorting, and pagination.
 
-## Tests
+## Configuration
 
-Run backend tests from the `backend` directory:
+The frontend uses `/api` by default. For a deployment where the API is hosted separately, set the Vite environment variable `VITE_API_URL` to the API base URL, for example `https://api.example.com/api`, before building the frontend.
 
-```bash
-npm test
-```
+## Project notes
 
-## Production build
-
-Run from the repository root:
-
-```bash
-npm run build
-```
-
-## Project status
-
-SETUP LAB is an educational project in active development. Product images and content are temporary and will be updated as the storefront is finalized.
+- This is a portfolio/demo project, not a live store. Orders are for demonstration only.
+- Product and setup-kit photos are illustrative category images and may not match the exact product model.
+- A real payment provider and production contact channel are not configured.
