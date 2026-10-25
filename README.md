@@ -1,43 +1,30 @@
 # SETUP LAB
 
-**SETUP LAB** is an electronics store concept for discovering computer hardware, comparing products, and exploring ready-made setups for different needs.
+SETUP LAB is a concept storefront for computer hardware and workspace equipment. Visitors can explore products, compare specifications, browse curated PC setups, and place a demo order.
 
 ## Features
 
-- **Product catalog** — browse electronics by category and intended use.
-- **Search and filtering** — find products by name, category, price, and use case.
-- **Sorting and pagination** — organize catalog results.
-- **Product details** — view specifications, prices, and product information.
-- **Ready-made setups** — explore curated hardware combinations and their total prices.
-- **Shopping cart** — manage selected products and quantities.
-- **Order checkout** — submit orders with customer contact and delivery information.
-- **API tests** — automated tests for catalog endpoints, setup kits, and order validation.
+- Product catalog with search, category and use-case filters.
+- Sorting, price filtering, and pagination.
+- Product pages with specifications and pricing.
+- Curated setup kits with included products and calculated totals.
+- Shopping cart with quantity controls.
+- Checkout form with server-side order validation.
+- Automated backend tests for API behavior and order validation.
 
-## Tech Stack
+## Tech stack
 
-**Frontend**
-- React
-- TypeScript
-- Vite
-- React Router
-- Tailwind CSS
+**Frontend:** React, TypeScript, Vite, React Router, CSS.
 
-**Backend**
-- Node.js
-- Native HTTP module
-- JSON-based data storage
-- Node.js test runner
+**Backend:** Node.js, native HTTP module, JSON data files, Node.js test runner.
 
-## Getting Started
+## Run locally
 
-### Requirements
-
-- Node.js
-- npm
+Requirements: Node.js and npm.
 
 ### 1. Install frontend dependencies
 
-Run from the project root:
+Run from the repository root:
 
 ```bash
 npm install
@@ -50,7 +37,7 @@ cd backend
 npm install
 ```
 
-### 3. Start the backend
+### 3. Start the API
 
 From the `backend` directory:
 
@@ -58,33 +45,33 @@ From the `backend` directory:
 npm start
 ```
 
-The API runs at `http://localhost:7070` by default.
+By default, the API runs at `http://localhost:7070`.
 
 ### 4. Start the frontend
 
-Open a second terminal in the project root:
+Open a second terminal at the repository root:
 
 ```bash
 npm run dev
 ```
 
-Follow the local URL printed by Vite in the terminal.
+Open the local URL printed by Vite. Keep the API and frontend terminals running while using the app.
 
-## Backend API
+## API endpoints
 
-| Method | Endpoint | Description |
+| Method | Endpoint | Purpose |
 |---|---|---|
-| GET | `/api/categories` | Retrieve product categories |
-| GET | `/api/products` | Retrieve products with filtering and pagination |
-| GET | `/api/products/:id` | Retrieve a product by ID |
-| GET | `/api/top-sales` | Retrieve featured products |
-| GET | `/api/kits` | Retrieve ready-made setups |
-| GET | `/api/kits/:id` | Retrieve a setup by ID |
-| POST | `/api/orders` | Validate and create an order |
+| GET | `/api/categories` | List product categories |
+| GET | `/api/products` | List products with filtering and pagination |
+| GET | `/api/products/:id` | Get a product by ID |
+| GET | `/api/top-sales` | List featured products |
+| GET | `/api/kits` | List curated setup kits |
+| GET | `/api/kits/:id` | Get a setup kit by ID |
+| POST | `/api/orders` | Validate and submit an order |
 
-The product catalog supports search, category and use-case filters, price ranges, sorting, and pagination.
+The catalog API supports search, category and use-case filters, price ranges, sorting, and pagination.
 
-## Testing
+## Tests
 
 Run backend tests from the `backend` directory:
 
@@ -92,14 +79,14 @@ Run backend tests from the `backend` directory:
 npm test
 ```
 
-## Production Build
+## Production build
 
-Run from the project root:
+Run from the repository root:
 
 ```bash
 npm run build
 ```
 
-## Project Status
+## Project status
 
-This project is a work in progress. Product imagery and some store details may be updated as development continues.
+SETUP LAB is an educational project in active development. Product images and content are temporary and will be updated as the storefront is finalized.
