@@ -201,7 +201,7 @@ export default function Catalog() {
                 <div className="col">
                     <div className="banner">
                         <img
-                            src="./img/banner.jpg"
+                            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1800&q=85"
                             className="img-fluid"
                             alt="Подберите технику для своего рабочего пространства"
                         />
