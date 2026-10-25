@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import type { Product, ProductCartItem } from '../types';
 
-const API_URL = 'http://localhost:7070/api';
+const API_URL = `${import.meta.env.VITE_API_URL ?? '/api'}`;
 
 export default function Product() {
     const { id } = useParams();
