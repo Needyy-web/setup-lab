@@ -1,0 +1,31 @@
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Home from './components/Home';
+import About from './components/About';
+import Catalog from './components/Catalog';
+import Contacts from './components/Contacts';
+import Product from './components/Product';
+import Cart from './components/Cart';
+import ErrorPage from './components/ErrorPage';
+import { Routes, Route } from 'react-router-dom';
+import './App.css';
+
+export default function App() {
+    return (
+        <div>
+            <Header />
+
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/catalog.html" element={<Catalog />} />
+                <Route path="/catalog/:id.html" element={<Product />} />
+                <Route path="/cart.html" element={<Cart />} />
+                <Route path="/about.html" element={<About />} />
+                <Route path="/contacts.html" element={<Contacts />} />
+                <Route path="/404.html" element={<ErrorPage />} />
+            </Routes>
+
+            <Footer />
+        </div>
+    );
+}

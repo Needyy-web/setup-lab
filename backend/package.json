@@ -1,0 +1,22 @@
+{
+  "name": "setup-lab-backend",
+  "version": "1.0.0",
+  "description": "API for the SETUP LAB electronics store",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node src/index.mjs",
+    "flaky": "cross-env APP_DELAY=true APP_ERROR=true node src/index.mjs",
+    "test": "node --test",
+    "lint": "prettier --write src"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
