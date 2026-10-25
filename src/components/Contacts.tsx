@@ -28,9 +28,9 @@ export default function Contacts() {
                     <p>
                         По вопросам товаров и заказов
                     </p>
-                    <a href="mailto:hello@setup-lab.example">
-                        Почта для связи вскоре появится
-                    </a>
+                    <p className="contacts-page__contact-note">
+                        Демонстрационный проект — форма связи не подключена.
+                    </p>
                 </article>
 
                 <article>
