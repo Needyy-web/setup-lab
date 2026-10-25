@@ -23,6 +23,7 @@ export default function App() {
                 <Route path="/about.html" element={<About />} />
                 <Route path="/contacts.html" element={<Contacts />} />
                 <Route path="/404.html" element={<ErrorPage />} />
+                <Route path="*" element={<ErrorPage />} />
             </Routes>
 
             <Footer />
