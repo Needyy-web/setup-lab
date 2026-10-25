@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import type { Category, Product, SetupKit } from '../types';
 
-const API_URL = 'http://localhost:7070/api';
+const API_URL = `${import.meta.env.VITE_API_URL ?? '/api'}`;
 const PAGE_SIZE = 6;
 
 const ALL_CATEGORY: Category = {
