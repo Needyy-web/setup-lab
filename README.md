@@ -103,3 +103,16 @@ npm run build
 ## Project Status
 
 This project is a work in progress. Product imagery and some store details may be updated as development continues.
+
+
+
+## Screenshots
+
+### Home page
+![SETUP LAB home page](screenshots/home.png)
+
+### Product catalog
+![SETUP LAB product catalog](screenshots/catalog.png)
+
+### Product details
+![SETUP LAB product details](screenshots/product.png)
