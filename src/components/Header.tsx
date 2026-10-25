@@ -18,7 +18,14 @@ export default function Header() {
 
         try {
             const cart = JSON.parse(savedCart);
-            setCartCount(Array.isArray(cart) ? cart.length : 0);
+            setCartCount(
+                Array.isArray(cart)
+                    ? cart.reduce(
+                          (total, item) => total + (Number(item.count) || 0),
+                          0,
+                      )
+                    : 0,
+            );
         } catch {
             setCartCount(0);
         }
