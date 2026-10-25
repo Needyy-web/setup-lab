@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import type { Product, ProductCartItem } from '../types';
+import API_URL from '../api';
 
-const API_URL = 'http://localhost:7070/api';
 
 export default function Product() {
     const { id } = useParams();

@@ -1,10 +1,9 @@
-
 import { useSearchParams, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import type { FormEvent } from 'react';
 import type { Category, Product } from '../types';
+import API_URL from '../api';
 
-const API_URL = 'http://localhost:7070/api';
 const PAGE_SIZE = 6;
 const ALL_CATEGORY = { id: 0, title: 'Все' };
 
