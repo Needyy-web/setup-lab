@@ -1,3 +1,3 @@
 import { createServer } from './server.mjs'
 
-createServer(process.env.PORT)
+createServer(Number(process.env.PORT) || 7070)

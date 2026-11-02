@@ -7,6 +7,18 @@ import { setTimeout } from 'node:timers/promises'
 
 const __filename = url.fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+const frontendPath = path.resolve(__dirname, '../../dist')
+const mimeTypes = {
+  '.html': 'text/html',
+  '.js': 'application/javascript',
+  '.css': 'text/css',
+  '.svg': 'image/svg+xml',
+  '.png': 'image/png',
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.webp': 'image/webp',
+  '.ico': 'image/x-icon',
+}
 
 const dataPath = path.join(__dirname, 'data')
 const categoriesPath = path.join(dataPath, 'categories.json')
@@ -376,6 +388,47 @@ const createServer = (port = 7070) => {
           orderId: order.id,
           total: order.total
         })
+      }
+
+      if (req.method === 'GET' && !pathname.startsWith('/api/')) {
+        const filePath = path.resolve(frontendPath, `.${pathname}`)
+
+        const isSafePath = filePath.startsWith(frontendPath + path.sep)
+
+        if (isSafePath && fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
+          const extension = path.extname(filePath)
+          const contentType = mimeTypes[extension] || 'application/octet-stream'
+
+          const file = await fs.promises.readFile(filePath)
+
+          res.writeHead(200, {
+            'Content-Type': contentType
+          })
+
+          return res.end(file)
+        }
+      }
+
+      const isFrontendRoute =
+        pathname === '/' ||
+        [
+          '/catalog.html',
+          '/cart.html',
+          '/about.html',
+          '/contacts.html',
+          '/404.html'
+        ].includes(pathname) ||
+        /^\/catalog\/\d+\.html$/.test(pathname)
+
+      if (req.method === 'GET' && isFrontendRoute) {
+        const indexPath = path.join(frontendPath, 'index.html')
+        const html = await fs.promises.readFile(indexPath)
+
+        res.writeHead(200, {
+          'Content-Type': 'text/html; charset=utf-8'
+        })
+
+        return res.end(html)
       }
 
       return sendResponse(res, 404, {
