@@ -1552,6 +1552,11 @@ main.container > .row h2 {
   }
 }
 
+.about-page__advantages h2,
+.about-page__advantages > p {
+  grid-column: 1 / -1;
+}
+
 @media (max-width: 520px) {
   .home__hero {
     min-height: 420px;
